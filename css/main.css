@@ -1,0 +1,131 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300);
+
+body {
+    background: #e7e8dc;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Top de la page */
+
+#top {
+    background: #242628;
+    color: #eee;
+    padding: 0;
+    height: 45px;
+    margin-bottom: 20px;
+    
+}
+
+#top span {
+    font-size: 22px;
+    padding: 8px 10px 12px 10px;
+    display: inline-block;
+    height: 25px;
+    border-right: 1px solid #333;
+}
+
+#top ul {
+    margin: 0;
+    padding: 0;
+    height: 45px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+#top li {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    height: 21px;
+    padding: 12px 13px;
+    padding-bottom: 12px;
+    border-right: 1px solid #333;
+}
+
+#top .active {
+    color: #ddd;
+    cursor: normal;
+    background: #343638;
+}
+
+#top a {
+    color: #eee;
+    text-decoration: none;
+}
+
+/* Liste des articles */
+#liste {
+    background: #fff;
+    display: block;
+    margin: 0 10px;
+    padding: 0;
+    margin-left: 20px;
+    overflow-y: scroll;
+    width: 390px;
+    box-shadow: 0 0 3px #CCC;
+}
+
+#liste-titre {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    color: #999;
+}
+
+
+#liste-ul {
+    margin: 0;
+    padding: 0;
+}
+
+#liste .active {
+    background: #f9f9f9;
+    border-left: 4px solid #ddd;
+}
+
+.li {
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.li h1 {
+    font-weight: normal;
+    font-size: 24px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+.date {
+    color: #999;
+}
+
+/* iFrame Content */
+
+#content {
+    width: calc(100% - 440px);
+    margin-left: 420px;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    background: #eee;
+    height: 100%;
+}
+
+#content iframe {
+    width: 100%;
+    border: none;
+    background: #fff;
+    box-shadow: 0 0 3px #CCC;
+    height: 100%;
+}
+
+input[type=button] {
+    
+}

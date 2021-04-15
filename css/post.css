@@ -1,0 +1,100 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300);
+
+/* Titre Clef */
+body {
+    margin:0;
+    background: #fff;
+    font-family: Helvetica, serif;
+    overflow-y: hidden;
+}
+
+input[type=text] {
+    width: calc(100% - 20px);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    font-size: 20px;
+    outline: 0;
+    padding: 10px;
+    margin: 0 0 0 0;
+    /*border-bottom: 1px solid #eee;*/
+    font-family: 'Roboto Slab', serif;
+}
+
+table {
+    width: 100%;
+    margin:0;
+    
+    border-spacing: 0;
+     border-collapse: collapse;
+}
+
+tr {
+    margin: 0;
+}
+
+/* Textarea */
+
+textarea {
+    width: calc(100% - 20px);
+    font-family: sans-serif;
+    font-size: 20px;
+    resize: none;
+    border: none;
+    padding: 10px;
+   border: 1px solid #ddd;
+   border-width: 1px 0;
+    background: #fff;
+    color: #000;
+    outline: 0;
+    font-family: 'Roboto Slab', serif;
+    
+    
+}
+
+/* Options */
+
+input[type=button] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff;
+    color: #000;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    margin:0;
+    cursor: pointer;
+    outline:0;
+    
+}
+
+#check {
+     background: #fff;
+    color: #666;
+    padding: 10px;
+    font-size: 20px;
+    
+    
+}
+
+.check {
+    background: #fff;
+    color: #666;
+    padding: 10px;
+    
+   
+    
+}
+
+#check a {
+    color: #000;
+    text-decoration: none;
+}
+
+input[type=checkbox] {
+    vertical-align: top;
+    margin-top: 6px;
+    display: inline-block;
+}

@@ -1,0 +1,359 @@
+body {
+    background: #3a4754;
+    background-repeat:no-repeat;
+    background-position:right -317px;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@-webkit-keyframes opacite {
+    from { opacity: 0; }
+    50% {opacity: 1;}
+    to   { left: 0;opacity: 1; }
+}
+
+@-webkit-keyframes transition-bandeau-1 {
+    from {top: 0;}
+    60%   {top: 0;}
+    to   {top: 100%;}
+}
+
+*:focus {
+    outline: 0;
+}
+
+#top {
+    width: 100%;
+    top: 0;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    height: 80px;
+    /*box-shadow: 1px 1px 10px #CCCCCC;*/
+    background: transparent;
+    color: #fff;
+    
+}
+
+
+
+#header {
+    top: 0;
+    max-width: 860px;
+    height: 80px;
+    margin: 0px auto 0px auto;
+    
+    font-size: 24px;
+}
+
+#header h1 {
+    padding: 18px 0 0 0;
+    margin: 0;
+    font-weight: normal;
+    
+    font-size: 37px;
+}
+
+#header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#header span {
+    cursor: default;
+    padding: 25px 0 0 0;
+    text-align: right;
+    float: right;
+}
+
+#search-input {
+    float: right;
+    padding: 0;
+    margin-top: 27px;
+    height: 25px;
+    background: transparent;
+    color: #fff;
+    margin-left: 10px;
+    outline: 0;
+    font-size: 18px;
+    width: 170px;
+    border-bottom: 2px solid #fff;
+    border-width: 0 0 2px 0;
+}
+
+#search-input::-webkit-input-placeholder {
+   color: #DDD;
+}
+
+#search-f {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+#recherche {
+    float: right;
+    margin-top: 30px;
+    margin-left: 5px;
+    height: 20px;
+}
+
+#content {
+    -webkit-animation: opacite 1s;
+    font-size: 24px;
+    margin: 0 auto 0 auto;
+    max-width: 900px;
+    color: 	#000;
+    z-index: 1000;
+    background: transparent;
+    padding: 10px 20px 0px 20px;
+    border-radius: 2px;
+}
+
+#li {
+    padding: 0;
+    margin: 0 0 30px 0;
+    background: #fff;
+    border-radius: 2px;
+    list-style: none;
+}
+
+
+#separator {
+    border-style: solid;
+    border-color: #ccc;
+    width: 700px;
+    margin: 25px auto 0 auto;
+    border-width: 0 0 2px 0;
+}
+
+#fin {
+    position: fixed;
+    bottom: 0;
+    border-style: solid;
+    border-color: #ccc;
+    width: 100%;
+    margin: 0;
+    border-width: 0 0 2px 0;
+}
+
+
+
+#content h1 {
+    font-weight: normal;
+    font-size: 40px;
+    font-style: italic;
+    color: #399F8E;
+}
+
+#code {
+    background-color: #2F3129;
+    border-radius: 4px;
+    padding: 7px;
+    color: #fff;
+    
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    line-height: 27px;
+}
+
+
+
+table {
+    font-size: 24px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td {
+    padding: 5px;
+}
+
+#close {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+     /* display: none; */
+    z-index: 200;
+    background: #fff;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+#close span {
+    cursor: pointer;
+}
+
+
+#content h1 {
+    margin: 0.2em 0 0.2em 40px;
+    font-weight: normal;
+    font-size: 40px;
+    font-style: normal;
+    color: #399F8E;
+}
+
+
+
+#file {
+    float: left;
+    width: 197px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    background-image: url('images/file-button.png');
+    margin-right: 10px;
+}
+
+#file:hover {
+    float: left;
+    width: 197px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    background-image: url('images/file-button.png');
+    margin-right: 10px;
+    box-shadow: 1px 1px 5px #eee;
+}
+
+#spanfileun {
+    font-size: 22px;
+    margin: 0 0 0 0;
+    height: 30px;
+}
+
+#spanfiledeux {
+    font-size: 22px;
+    margin: 0 0 5px 0;
+    height: 30px;
+}
+
+#f2 {
+    position: fixed;
+}
+
+#options {
+    width: 100%;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+#checkdiv {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#options #tdfile1 {
+    margin: 0;
+    width: 135px;
+    border-right: 1px solid #ddd;
+    cursor: pointer;
+    font-size: 22px;
+    padding: 7px 5px;
+}
+
+#options #tdfile2 {
+    margin: 0;
+    width: 135px;
+    border-right: 1px solid #ddd;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+#options tr {
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+#options table {
+    margin: 0;
+    width: 100%;
+}
+
+#checkdiv span {
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 2px;
+}
+
+
+#options a {
+    margin: 0 20px 0 0;
+}
+
+#option table {
+    margin: 0;
+}
+
+#clef {
+    font-size: 18px;
+}
+
+
+#content #subutton {
+    border: none;
+    border-radius: 0 0 2px 2px;
+}
+
+#connect-f #pseudo {
+    width: 300px;
+    display: block;
+    font-size: 20px;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 2px 2px 0 0;
+    margin: 0;
+}
+
+#connect-f #pass {
+    width: 300px;
+    display: block;
+    font-size: 20px;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+}
+
+#connect-f {
+    margin: 0 auto;
+    width: 300px;
+}
+
+#submit {
+    width: 300px;
+    display: block;
+    font-size: 20px;
+    padding: 7px;
+    border: none;
+    border-radius: 0 0 2px 2px;
+    margin: 0;
+    background: #fff;
+}
+
+#rouge {
+    display: block;
+     color: #fff; 
+    border: 1px solid #f00;
+        padding: 4px;
+        width: 290px;
+        
+    margin: 5px auto;
+        background: #f55;
+        border-radius: 2px;
+        font-size: 18px;
+    }
+    
+
+
+
+
+
